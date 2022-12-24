@@ -1,0 +1,11 @@
+name: default
+permissions:
+- multiverse.teleport.*
+- essentials.back
+- essentials.back.ondeath
+- essentials.home
+- essentials.sethome
+- essentials.world
+- luckperms.user.info
+- multiverse.core.spawn.self
+- redprotect.command.user

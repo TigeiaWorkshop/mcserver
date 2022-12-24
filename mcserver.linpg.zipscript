@@ -1,0 +1,8 @@
+plugins/AuthMe/authme.db
+plugins/AuthMe/playerdata/
+plugins/Essentials/userdata/
+plugins/LuckPerms/yaml-storage/actions.txt
+plugins/LuckPerms/yaml-storage/users/
+plugins/LuckPerms/yaml-storage/uuidcache.txt
+plugins/RedProtect/data/
+world/

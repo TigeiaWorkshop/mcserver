@@ -1,0 +1,37 @@
+panels:
+  teleport:
+    perm: default
+    rows: 3
+    title: '&8传送'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '10':
+        material: END_CRYSTAL
+        stack: 1
+        name: '&r&5主城'
+        commands:
+        - mvtp %cp-player-name% world
+      '12':
+        material: GRASS_BLOCK
+        stack: 1
+        name: '&2资源世界'
+        commands:
+        - mvtp %cp-player-name% zysj
+      '14':
+        material: LEAD
+        stack: 1
+        name: '&9圈地世界'
+        commands:
+        - mvtp %cp-player-name% qdsj
+      '16':
+        material: MAGMA_BLOCK
+        stack: 1
+        name: '&c地狱'
+        commands:
+        - mvtp %cp-player-name% DIM-1
+      '26':
+        material: BARRIER
+        stack: 1
+        name: '&4返回'
+        commands:
+        - open= main

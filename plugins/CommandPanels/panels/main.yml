@@ -1,0 +1,96 @@
+panels:
+  main:
+    perm: default
+    rows: 5
+    title: '&8主菜单'
+    empty: BLACK_STAINED_GLASS_PANE
+    open-with-item:
+      material: enchanted_book
+      name: '&9绝对萌领域生存指南'
+      stationary: 0
+      lore:
+      - '&3右键单击打开'
+    item:
+      '10':
+        material: BOTANIA_MANA_PYLON
+        stack: 1
+        name: '&d传送菜单'
+        lore:
+        - '&7点击此处进行各个区域间的传送'
+        commands:
+        - open= teleport
+      '12':
+        material: dark_oak_door
+        stack: 1
+        name: '&3回家'
+        lore:
+        - "&7回到你所设置的家/领地"
+        commands:
+        - home
+      '14':
+        material: FLOWER_BANNER_PATTERN
+        stack: 1
+        name: '&d称号'
+        lore:
+        - "&f点击查看和更换你的称号"
+        - "&f称号可以通过活动和购买获得"
+      '16':
+        material: BIRCH_SIGN
+        stack: 1
+        name: '&b用户组'
+        lore:
+        - "&f点击查看你所属的用户组及个人信息"
+        commands:
+        - luckperms user %cp-player-name% info
+        - cpc
+      '20':
+        material: MYSTICALAGRICULTURE_APATITE_ESSENCE
+        stack: 1
+        name: '&6在线超市'
+        lore:
+        - "&7全天候24小时无人在线的全自动超市"
+        - "&7仅需一个神奇的四次元口袋即可享受"
+        commands:
+        - open= shop
+      '22':
+        material: IRON_HOE
+        stack: 1
+        name: '&2领地设置菜单'
+        lore:
+        - "&7点击此处打开领地设置菜单"
+        commands:
+        - redprotect flag
+      '24':
+        material: PAINTING
+        stack: 1
+        name: '&3圈地快捷指令'
+        lore:
+        - "&7点击此处打开圈地快捷指令菜单"
+        commands:
+        - open= rp_commmand
+      '30':
+        material: WHITE_BANNER
+        stack: 1
+        name: '&e服务器赞助榜'
+        lore:
+        - "&7感谢以下玩家对服务器的无偿赞助"
+        - "&7Flowerscur"
+        - "&7DonaldBob"
+        - "&7HosonKwong"
+        - "&7太阳骑士高一乃"
+        - "&71122334"
+        - "&7谢谢大家对绝对萌领域的支持!" 
+      '32':
+        material: COMMAND_BLOCK
+        stack: 1
+        name: "&4管理员菜单"
+        lore:
+        - "&7管理员专用, 玩家勿碰"
+        commands:
+        - open=
+      '44':
+        material: BARRIER
+        stack: 1
+        name: '&4关闭菜单'
+        commands:
+        - cpc
